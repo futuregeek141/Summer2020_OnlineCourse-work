@@ -1,0 +1,31 @@
+Something that can hold all genes: StorageResource by Duke
+Works like traditional arraylist
+
+This class provides methods for storing and accessing a list of strings of any length. Generally you will start by creating an empty StorageResource, then adding string values as you find them in a file or web page
+
+sr.add("string")
+sr.size
+sr.contains(item)
+sr.clears()
+for (String data : sr.data())
+
+assignment
+1 99, 2 28, 3 74,  5 below if, 
+
+The DirectoryResource class allows the user to choose one or more files from a directory (or folder) with a file selection dialog box by using the method selectedFiles. These files can then be iterated over using a for loop.
+Example usage:
+
+ DirectoryResource dr = new DirectoryResource();
+ for (File f : dr.selectedFiles()) {
+     ImageResource ir = new ImageResource(f);
+     ir.draw();
+ }
+
+The FileResource class represents a file and allows access to its contents a line at a time, using the method lines, or a word at a time, using the method words. These strings can then be iterated over using a for loop.
+Example usage:
+
+ FileResource fr = new FileResource();
+ for (String s : fr.words()) {
+     // print or process s
+ }
+

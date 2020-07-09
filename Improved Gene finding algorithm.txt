@@ -1,0 +1,16 @@
+Extended programming and problem solving capability:
+
+Work  on genes using a model of start and stop codons, like genome and computational scientists for making personalized medicines and understanding genetic issues.
+
+Using indefinte loop:
+- Storing intermediate results
+- Lets results processsed and filtered
+
+Improvising algorithm:
+- Find first occurrence of ATG
+- Found TAA after the ATG
+- Checking if distance between them is multiple of 3
+- If not, find the next TAA
+(This process can not be definite..)
+
+For multiple stop codons like "TAA", "TAG", "TGA":

@@ -1,0 +1,29 @@
+For genome scientists, String is genetic information stored as long list or string over the four letter alphabet, A,T,C,G and backbone phosphate.
+
+Reading and detecting data from:
+- Genomic data stored in fasta format - Programs to find proteins, genes
+- Programs to find links and small info from webpage, like google
+- Data from CSV file
+
+Finding patterns.
+
+Algorithms:
+Working with strings that represent DNA,
+
+Nucleotide(Amino acid) - Building blocks of DNA
+Codon - 3 blocks together
+Start codon(ATG) to stop codon(TAA) forms one gene
+Real gene are multiples of 3 due to codons
+
+String useful methods
+s.length()
+s.substring(4,7) asdghhf = hhf
+s.indexOf("hhf") 4 //Solution for dna problem
+------------------------------------------------------------------------
+Sample Algorithm made up to find gene from strand of DNA :
+- method findgenesimple
+- set resultGENE to null
+- Locate start codon, ATG dna.indexOf("ATG")
+- Locate stop codon, TAA dna.indexOf("TAA",(Index of ATG + 3)
+- dna.substring(start,stop+3) assign to result
+-----------------------------------------------------------------------
