@@ -27,7 +27,18 @@ the ledger, Peer-to-peer network, consensus mechanism and incentive mechanism(Dr
 Week 3
 --------------------------------------------------------------------------------
 Tracking total bitcoins recieved at particular address(BTC address) using block explorer henceforth, verifying transaction.
+--------------------------------------------------------------------------------
+Relationship of immutability and hashing:
+It is infeasible to reverse engineer, go backward to original information from a hash ID.
 
+Merkle tree prepared to merge transactions to trace genesis block
+Blockchain containers comprises of root hash, hash of previous block and timestamp.
+Minors use proof of work, hashing and verification to solve
+double spending problem.
+-------------------------------------------------------------------------------- 
+Difference between public and private blockchain
+Blockchain.com
+-------------------------------------------------------------------------------- 
 Cyptography and encryption
 Public blockchains use asymmetric key cyptography
 
