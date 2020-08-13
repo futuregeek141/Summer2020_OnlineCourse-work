@@ -1,0 +1,52 @@
+The term blockchain was first described back in 1991. A group of researchers wanted to create a tool to timestamp digital documents so that they could not be backdated or changed. Further, the technique was adapted and reinvented by Satoshi Nakamoto. In 2008, Nakamoto created the first cryptocurrency, the blockchain-based project called Bitcoin.
+
+blockchain has consistency highly demanded by accountants
+can be transacted anywhere anytime in world..
+
+3 properties of money: 
+medium of exchange, unit of account, store of value
+
+4 attributes of money:
+fungible, durable, portable, divisible
+
+--------------------------------------------------------------------------------
+Principles of money: Assignment 1
+https://www.coursera.org/learn/blockchain-evolution-technology-concepts/peer/yiTbW/brainstorming-the-principles-of-money-exercise-1/review/61bLHID4Eeqz4RKicPI9Aw
+--------------------------------------------------------------------------------
+Principles of money: Assignment 3
+What are the similarities between Bitcoin and your chosen form of money?
+Bitcoin and Diamonds are volatile, fungible and transferable.
+
+What are the differences between Bitcoin and your chosen form of money?
+Bitcoins have a unit of account whereas Diamond does not have a unit of account as its value varies with quality and size.
+
+https://www.coursera.org/learn/blockchain-evolution-technology-concepts/peer/UMW02/brainstorming-the-principles-of-money-exercise-3/review/q72_joD6Eeqz4RKicPI9Aw
+--------------------------------------------------------------------------------
+Four components of blockchain:
+the ledger, Peer-to-peer network, consensus mechanism and incentive mechanism(Drives behavior, people to participate).
+Week 3
+--------------------------------------------------------------------------------
+Tracking total bitcoins recieved at particular address(BTC address) using block explorer henceforth, verifying transaction.
+
+Cyptography and encryption
+Public blockchains use asymmetric key cyptography
+
+Bitcoin uses elliptic curve digital signature algorithm(ECDSA) which produces private and public key.
+
+Hashing alogirthm is used to create public key from private key, vice versa is not possible(going backwards).
+
+Later, public key is hashed again to generate public address called as BTC address(reverse engineer not possible) used earlier in Block explorer.
+
+private key -> public key -> public address
+
+Private key is used to sign the bitcoin transactions.
+Safer than symmetric key technique tackling man in the middle attack.
+
+Credit card information can't be spread around but bitcoin BTC address can be made public, that is great paradigm shift.
+
+Buyer can push(push model) bitcoin rather than seller pulling(fruad risk) it himself(paradigm shift).
+
+Interactive exercise:
+Very useful to understand how mining and hashing works.
+--------------------------------------------------------------------------------
+
